@@ -73,3 +73,27 @@ The next positioning tool does not actually use position, but sets the float pro
 `background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);`
 example:
 `background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));`
+
+## @keyframes
+
+```
+  #rect {
+    animation-name: rainbow; <!-- Name of the @keyframes down the lines -->
+    animation-duration: 4s; <!-- Duration of the keyframe -->
+
+  }
+
+  @keyframes rainbow { <!-- Start of the keyframes, start middle and end. -->
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: green;
+    }
+    100% {
+      background-color: yellow;
+    }
+  }
+```
+
+Use `animation-fill-mode: forwards;` to keep the animation after animation has ran
