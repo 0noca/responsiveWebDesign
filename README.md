@@ -50,3 +50,23 @@ e.g box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 
 The blur-radius and spread-radius values are optional.
+
+The following table shows how the different text-transformvalues change the example text "Transform me":
+    Value	Result
+    lowercase	"transform me"
+    uppercase	"TRANSFORM ME"
+    capitalize	"Transform Me"
+    initial	Use the default value
+    inherit	Use the text-transform value from the parent element
+    none	Default: Use the original text
+    
+When the position of an element is set to relative, it allows you to specify how CSS should move it relative to its current position in the normal flow of the page. It pairs with the CSS offset properties of left or right, and top or bottom. These say how many pixels, percentages, or ems to move the item away from where it is normally positioned. The following example moves the paragraph 10 pixels away from the bottom:
+
+The next option for the CSS position property is absolute, which locks the element in place relative to its parent container. Unlike the relative position, this removes the element from the normal flow of the document, so surrounding items ignore it. The CSS offset properties (top or bottom and left or right) are used to adjust the position.
+
+The next positioning tool does not actually use position, but sets the float property of an element. Floating elements are removed from the normal flow of a document and pushed to either the left or right of their containing parent element. It's commonly used with the width property to specify how much horizontal space the floated element requires.
+
+to greate gradients use:
+background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+example:
+background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
