@@ -97,3 +97,19 @@ example:
 ```
 
 Use `animation-fill-mode: forwards;` to keep the animation after animation has ran
+Use `animation-iteration-count: 3;´ to run the animation as many times as you want
+
+animation-timing-function: linear;
+animation-timing-function: ease-out;
+
+Audio Player on website
+```
+<audio id="meowClip" controls>
+  <source src="audio/meow.mp3" type="audio/mpeg">
+  <source src="audio/meow.ogg" type="audio/ogg">
+</audio>
+```
+
+## Accesibility
+
+Date picker: input type="date"
