@@ -133,13 +133,13 @@ flex-direction: column;
 
 There are several options for how to space the flex items along the line that is the main axis. One of the most commonly used is `justify-content: center;`, which aligns all the flex items to the center inside the flex container. Other options include:
 
-    `flex-start:` aligns items to the start of the flex container. For a row, this pushes the items to the left of the container. For a column, this pushes the items to the top of the container. This is the default alignment if no justify-content is specified.
+   `flex-start:` aligns items to the start of the flex container. For a row, this pushes the items to the left of the container. For a column, this pushes the items to the top of the container. This is the default alignment if no justify-content is specified.
     
-   ` flex-end:` aligns items to the end of the flex container. For a row, this pushes the items to the right of the container. For a column, this pushes the items to the bottom of the container.
+   `flex-end` aligns items to the end of the flex container. For a row, this pushes the items to the right of the container. For a column, this pushes the items to the bottom of the container.
    
     `space-between:` aligns items to the center of the main axis, with extra space placed between the items. The first and last items are pushed to the very edge of the flex container. For example, in a row the first item is against the left side of the container, the last item is against the right side of the container, then the remaining space is distributed evenly among the other items.
     
-    `space-around:` similar to space-between but the first and last items are not locked to the edges of the container, the space is distributed around all the items with a half space on either end of the flex container.
+    `space-around` similar to space-between but the first and last items are not locked to the edges of the container, the space is distributed around all the items with a half space on either end of the flex container.
     
     vspace-evenly:` Distributes space evenly between the flex items with a full space at either end of the flex container.
     
@@ -165,4 +165,13 @@ CSS also has options for the direction of the wrap:
    `nowrap:` this is the default setting, and does not wrap items.
    `wrap:` wraps items onto multiple lines from top-to-bottom if they are in rows and left-to-right if they are in columns.
    `wrap-reverse:` wraps items onto multiple lines from bottom-to-top if they are in rows and right-to-left if they are in columns.
-    
+
+# Flex-shrink 
+```
+The flex-shrink property takes numbers as values. The higher the number, the more it will shrink compared to the other items in the container. For example, if one item has a flex-shrink value of 1 and the other has a flex-shrink value of 3, the one with the value of 3 will shrink three times as much as the other.
+```
+
+# Flex-grow
+```
+Using a similar example from the last challenge, if one item has a flex-grow value of 1 and the other has a flex-grow value of 3, the one with the value of 3 will grow three times as much as the other.
+```
