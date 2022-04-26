@@ -113,3 +113,12 @@ Audio Player on website
 ## Accesibility
 
 Date picker: input type="date"
+
+# Media queries
+
+@media (max-width: 100px) {
+p {
+text-size: 10px;
+}
+}
+
