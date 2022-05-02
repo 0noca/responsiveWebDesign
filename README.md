@@ -175,3 +175,7 @@ The flex-shrink property takes numbers as values. The higher the number, the mor
 ```
 Using a similar example from the last challenge, if one item has a flex-grow value of 1 and the other has a flex-grow value of 3, the one with the value of 3 will grow three times as much as the other.
 ```
+# Flex Basis
+```
+Set the initial size of the boxes using flex-basis. Add the CSS property flex-basis to both #box-1 and #box-2. Give #box-1 a value of 10em and #box-2 a value of 20em.
+```
